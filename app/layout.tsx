@@ -1,11 +1,11 @@
-import Header from '@/components/Header';
-import '../styles/globals.css';
-import PromptInput from '@/components/PromptInput';
+import Header from '../components/Header';
+import PromptInput from '../components/PromptInput';
 import ClientProvider from '../components/ClientProvider';
+import '../styles/globals.css';
 
 export const metadata = {
-  title: 'Dall-E',
-  description: 'Generated Dall-E, Chat-GPT, AI Image',
+  title: 'AI Image Generator',
+  description: 'Built with Next.js 13.2, DALL·E 2, and Chat GPT',
 };
 
 export default function RootLayout({
@@ -20,6 +20,7 @@ export default function RootLayout({
           <Header />
 
           <PromptInput />
+
           {children}
         </ClientProvider>
       </body>
