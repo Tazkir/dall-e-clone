@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['links.papareact.com'],
+    domains: ['imagevstorage.blob.core.windows.net', 'links.papareact.com'],
   },
 };
 

@@ -1,7 +1,11 @@
-export default function Home() {
+import Images from '../components/Images';
+
+async function HomePage() {
   return (
-    <main>
-      <h1>hello world</h1>
-    </main>
+    <div className="mx-0 md:10">
+      <Images />
+    </div>
   );
 }
+
+export default HomePage;
