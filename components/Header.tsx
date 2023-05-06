@@ -29,7 +29,11 @@ function Header() {
         >
           Portfolio
         </Link>
-        <Link href="*" target="_blank" className="px-2 font-light text-right">
+        <Link
+          href="https://github.com/Tazkir/dall-e-clone"
+          target="_blank"
+          className="px-2 font-light text-right"
+        >
           Github Repo
         </Link>
       </div>

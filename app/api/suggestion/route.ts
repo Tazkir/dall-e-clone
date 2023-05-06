@@ -1,7 +1,7 @@
 export async function GET(request: Request) {
   // connect to microsoft azure fync endpoint
   const response = await fetch(
-    'http://localhost:7071/api/getChatGPTSuggestion',
+    'https://ai-generator-image.azurewebsites.net/api/getchatgptsuggestion',
     {
       cache: 'no-store',
     }
